@@ -3,6 +3,15 @@
 ## 📄 Description
 This folder contains the datasets used in the experiments for the paper:
 
+> **"Energy-aware Cooperative Multi-Fitness Evolutionary Algorithm for Workflow Scheduling in Cloud Computing"**
+>  
+> (Submitted to **Natural Computing (NACO)**.
+> Authors: Author Pablo Barredo, Jorge Puente
+>
+>DOI: [Pending Assignment]
+>
+> URI: [Pending Assignment]
+
 These datasets were used to evaluate the performance of an evolutionary algorithm for workflow scheduling in cloud computing environments.
 
 ---
