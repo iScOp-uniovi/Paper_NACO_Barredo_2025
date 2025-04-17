@@ -1,0 +1,25 @@
+{
+  "hosts": [
+    {
+      "name": "HostA",
+      "cores": "1",
+      "cpu_speed": "1Gf",
+      "disk_speed": "32Mbps",
+      "network_speed": "8Mbps"
+    },
+    {
+      "name": "HostB",
+      "cores": "1",
+      "cpu_speed": "2Gf",
+      "disk_speed": "32Mbps",
+      "network_speed": "8Mbps"
+    },
+    {
+      "name": "HostC",
+      "cores": "1",
+      "cpu_speed": "2.5Gf",
+      "disk_speed": "32Mbps",
+      "network_speed": "1MBps"
+    }
+  ]
+}

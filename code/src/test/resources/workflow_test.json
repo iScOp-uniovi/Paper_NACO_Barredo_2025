@@ -1,0 +1,319 @@
+{
+    "name": "Heft-example-trace",
+    "description": "Trace for HEFT test",
+    "createdAt": "2020-11-20T17:34:16.563673",
+    "schemaVersion": "1.4",
+    "author": {
+        "name": "pablo",
+        "email": "uo237136@uniovi.es"
+    },
+    "wms": {
+        "name": "WorkflowHub",
+        "version": "0.3",
+        "url": "https://workflowhub.readthedocs.io/en/v0.3/"
+    },
+    "workflow": {
+        "executedAt": "20201120T093416-0800",
+        "makespan": 0.0,
+        "machines": [
+            {
+                "nodeName": "fake-1",
+                "system": "linux",
+                "cpu": {
+                    "count": 1,
+                    "speed": 1
+                }
+            }
+        ],
+        "tasks": [
+            {
+                "name": "task01",
+                "type": "compute",
+                "runtime": 13,
+                "parents": [],
+                "children": [
+                    "task02",
+                    "task03",
+                    "task04",
+                    "task05",
+                    "task06"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "file_task1_task2.txt",
+                        "sizeInBytes": 20000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task1_task3.txt",
+                        "sizeInBytes": 12000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task1_task4.txt",
+                        "sizeInBytes": 8000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task1_task5.txt",
+                        "sizeInBytes": 12000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task1_task6.txt",
+                        "sizeInBytes": 16000000
+                    }
+                ]
+            },
+            {
+                "name": "task02",
+                "type": "compute",
+                "runtime": 17,
+                "parents": [
+                    "task01"
+                ],
+                "children": [
+                    "task08",
+                    "task09"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "file_task1_task2.txt",
+                        "sizeInBytes": 18000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task2_task8.txt",
+                        "sizeInBytes": 20000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task2_task9.txt",
+                        "sizeInBytes": 16000000
+                    }
+                ]
+            },
+            {
+                "name": "task03",
+                "type": "compute",
+                "runtime": 14,
+                "parents": [
+                    "task01"
+                ],
+                "children": [
+                    "task07"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "file_task1_task3.txt",
+                        "sizeInBytes": 12000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task3_task7.txt",
+                        "sizeInBytes": 24000000
+                    }
+                ]
+            },
+            {
+                "name": "task04",
+                "type": "compute",
+                "runtime": 13,
+                "parents": [
+                    "task01"
+                ],
+                "children": [
+                    "task08",
+                    "task09"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "file_task1_task4.txt",
+                        "sizeInBytes": 8000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task4_task8.txt",
+                        "sizeInBytes": 28000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task4_task9.txt",
+                        "sizeInBytes": 24000000
+                    }
+                ]
+            },
+            {
+                "name": "task05",
+                "type": "compute",
+                "runtime": 12,
+                "parents": [
+                    "task01"
+                ],
+                "children": [
+                    "task09"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "file_task1_task5.txt",
+                        "sizeInBytes": 12000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task5_task9.txt",
+                        "sizeInBytes": 12000000
+                    }
+                ]
+            },
+            {
+                "name": "task06",
+                "type": "compute",
+                "runtime": 13,
+                "parents": [
+                    "task01"
+                ],
+                "children": [
+                    "task08"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "file_task1_task6.txt",
+                        "sizeInBytes": 16000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task6_task8.txt",
+                        "sizeInBytes": 16000000
+                    }
+                ]
+            },
+            {
+                "name": "task07",
+                "type": "compute",
+                "runtime": 11,
+                "parents": [
+                    "task03"
+                ],
+                "children": [
+                    "task10"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "file_task3_task7.txt",
+                        "sizeInBytes": 24000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task7_task10.txt",
+                        "sizeInBytes": 16000000
+                    }
+                ]
+            },
+            {
+                "name": "task08",
+                "type": "compute",
+                "runtime": 10,
+                "parents": [
+                    "task02",
+                    "task04",
+                    "task06"
+                ],
+                "children": [
+                    "task10"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "file_task2_task8.txt",
+                        "sizeInBytes": 20000000
+                    },
+                    {
+                        "link": "input",
+                        "name": "file_task4_task8.txt",
+                        "sizeInBytes": 28000000
+                    },
+                    {
+                        "link": "input",
+                        "name": "file_task6_task8.txt",
+                        "sizeInBytes": 16000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task8_task10.txt",
+                        "sizeInBytes": 12000000
+                    }
+                ]
+            },
+            {
+                "name": "task09",
+                "type": "compute",
+                "runtime": 17,
+                "parents": [
+                    "task02",
+                    "task04",
+                    "task05"
+                ],
+                "children": [
+                    "task10"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "file_task2_task9.txt",
+                        "sizeInBytes": 16000000
+                    },
+                    {
+                        "link": "input",
+                        "name": "file_task4_task9.txt",
+                        "sizeInBytes": 24000000
+                    },
+                    {
+                        "link": "input",
+                        "name": "file_task5_task9.txt",
+                        "sizeInBytes": 12000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task9_task10.txt",
+                        "sizeInBytes": 16000000
+                    }
+                ]
+            },
+            {
+                "name": "task10",
+                "type": "compute",
+                "runtime": 18,
+                "parents": [
+                    "task07",
+                    "task08",
+                    "task09"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "file_task7_task10.txt",
+                        "sizeInBytes": 16000000
+                    },
+                    {
+                        "link": "input",
+                        "name": "file_task8_task10.txt",
+                        "sizeInBytes": 12000000
+                    },
+                    {
+                        "link": "input",
+                        "name": "file_task9_task10.txt",
+                        "sizeInBytes": 16000000
+                    }
+                ]
+            }
+        ]
+    }
+}

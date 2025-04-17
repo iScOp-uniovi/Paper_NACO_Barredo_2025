@@ -1,0 +1,167 @@
+{
+  "name": "Heft-example-trace",
+  "description": "Trace for calculator test",
+  "createdAt": "2020-11-20T17:34:16.563673",
+  "schemaVersion": "1.4",
+  "author": {
+    "name": "pablo",
+    "email": "uo237136@uniovi.es"
+  },
+  "wms": {
+    "name": "WorkflowHub",
+    "version": "0.3",
+    "url": "https://workflowhub.readthedocs.io/en/v0.3/"
+  },
+  "workflow": {
+    "executedAt": "20201120T093416-0800",
+    "makespan": 0.0,
+    "machines": [
+      {
+        "nodeName": "fake-1",
+        "system": "linux",
+        "cpu": {
+          "count": 1,
+          "speed": 1
+        }
+      }
+    ],
+    "tasks": [
+      {
+        "name": "task01",
+        "type": "compute",
+        "runtime": 10,
+        "parents": [],
+        "children": [
+          "task02",
+          "task03",
+          "task04"
+        ],
+        "files": [
+          {
+            "link": "input",
+            "name": "task1_staging.txt",
+            "sizeInBytes": 10000000
+          },
+          {
+            "link": "output",
+            "name": "file_task1_task2.txt",
+            "sizeInBytes": 18000000
+          },
+          {
+            "link": "output",
+            "name": "file_task1_task3.txt",
+            "sizeInBytes": 12000000
+          },
+          {
+            "link": "output",
+            "name": "file_task1_task4.txt",
+            "sizeInBytes": 8000000
+          }
+        ]
+      },
+      {
+        "name": "task02",
+        "type": "compute",
+        "runtime": 15,
+        "parents": [
+          "task01"
+        ],
+        "children": [
+          "task05"
+        ],
+        "files": [
+          {
+            "link": "input",
+            "name": "file_task1_task2.txt",
+            "sizeInBytes": 18000000
+          },
+          {
+            "link": "output",
+            "name": "file_task2_task5.txt",
+            "sizeInBytes": 20000000
+          }
+        ]
+      },
+      {
+        "name": "task03",
+        "type": "compute",
+        "runtime": 5,
+        "parents": [
+          "task01"
+        ],
+        "children": [
+          "task05"
+        ],
+        "files": [
+          {
+            "link": "input",
+            "name": "file_task1_task3.txt",
+            "sizeInBytes": 12000000
+          },
+          {
+            "link": "output",
+            "name": "file_task3_task5.txt",
+            "sizeInBytes": 24000000
+          }
+        ]
+      },
+      {
+        "name": "task04",
+        "type": "compute",
+        "runtime": 20,
+        "parents": [
+          "task01"
+        ],
+        "children": [
+          "task05"
+        ],
+        "files": [
+          {
+            "link": "input",
+            "name": "task4_staging.txt",
+            "sizeInBytes": 16000000
+          },
+          {
+            "link": "input",
+            "name": "file_task1_task4.txt",
+            "sizeInBytes": 8000000
+          },
+          {
+            "link": "output",
+            "name": "file_task4_task5.txt",
+            "sizeInBytes": 28000000
+          }
+        ]
+      },
+      {
+        "name": "task05",
+        "type": "compute",
+        "runtime": 8,
+        "parents": [
+          "task02",
+          "task03",
+          "task04"
+        ],
+        "children": [
+        ],
+        "files": [
+          {
+            "link": "input",
+            "name": "file_task2_task5.txt",
+            "sizeInBytes": 20000000
+          },
+          {
+            "link": "input",
+            "name": "file_task3_task5.txt",
+            "sizeInBytes": 24000000
+          },
+          {
+            "link": "input",
+            "name": "file_task4_task5.txt",
+            "sizeInBytes": 28000000
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "hosts": [
+    {
+      "name": "Host1",
+      "cores": "16",
+      "cpu_speed": "4.2Gf",
+      "disk_speed": "540MBps",
+      "network_speed": "1Gbps",
+      "energy_cost": "88.5",
+      "energy_cost_stand_by": "45.5"
+    },
+    {
+      "name": "Host2",
+      "cores": "16",
+      "cpu_speed": "4.2Gf",
+      "disk_speed": "540MBps",
+      "network_speed": "1Gbps",
+      "energy_cost": "88.5",
+      "energy_cost_stand_by": "45.5"
+    },
+    {
+      "name": "Host3",
+      "cores": "52",
+      "cpu_speed": "1.8Gf",
+      "disk_speed": "540MBps",
+      "network_speed": "1Gbps",
+      "energy_cost": "350.8",
+      "energy_cost_stand_by": "90.2"
+    },
+    {
+      "name": "Host4",
+      "cores": "52",
+      "cpu_speed": "1.8Gf",
+      "disk_speed": "540MBps",
+      "network_speed": "1Gbps",
+      "energy_cost": "350.8",
+      "energy_cost_stand_by": "90.2"
+    }
+  ]
+}

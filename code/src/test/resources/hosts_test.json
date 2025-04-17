@@ -1,0 +1,31 @@
+{
+  "hosts": [
+    {
+      "name": "HostA",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "32Mbps",
+      "network_speed": "8Mbps",
+      "energy_cost": 1.8,
+      "energy_cost_stand_by": 0.2
+    },
+    {
+      "name": "HostB",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "32Mbps",
+      "network_speed": "8Mbps",
+      "energy_cost": 1.8,
+      "energy_cost_stand_by": 0.2
+    },
+    {
+      "name": "HostC",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "32Mbps",
+      "network_speed": "1MBps",
+      "energy_cost": 0.9,
+      "energy_cost_stand_by": 0.1
+    }
+  ]
+}

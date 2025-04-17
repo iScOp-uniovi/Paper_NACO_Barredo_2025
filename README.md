@@ -27,7 +27,7 @@ tool for sustainable workflow scheduling.
 
 ## 📂 Repository Content
 
-- `data/` → Dataset used in the experiments.
+- `data/` → Dataset used in the experiments and the scripts and configuration files needed to repeat them.
 - `code/` → Implementation of the proposed algorithm.
 - `results/` → Outcomes obtained after running the algorithm.
 - `README.md` → This file containing repository information.

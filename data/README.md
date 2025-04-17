@@ -20,6 +20,7 @@ These datasets were used to evaluate the performance of an evolutionary algorith
 
 - `workflows/` → Contains scientific workflow instances extracted from **WfCommons** ([version 1.4](https://github.com/wfcommons/WfInstances/tree/main/pegasus)).
 - `hosts/` → Contains different **IaaS configurations** used during experimentation.
+- `experiment` → Contains the scripts and the configuration file necessary to launch the same experiment as the one made for this paper.
 
 ---
 

@@ -1,0 +1,148 @@
+{
+  "hosts": [
+    {
+      "name": "Host1",
+      "cores": "8",
+      "cpu_speed": "3.8Gf",
+      "disk_speed": "540MBps",
+      "network_speed": "1Gbps",
+      "energy_cost": "55.4",
+      "energy_cost_stand_by": "44.8"
+    },
+    {
+      "name": "Host2",
+      "cores": "8",
+      "cpu_speed": "3.8Gf",
+      "disk_speed": "540MBps",
+      "network_speed": "1Gbps",
+      "energy_cost": "55.4",
+      "energy_cost_stand_by": "44.8"
+    },
+    {
+      "name": "Host3",
+      "cores": "8",
+      "cpu_speed": "3.8Gf",
+      "disk_speed": "540MBps",
+      "network_speed": "1Gbps",
+      "energy_cost": "55.4",
+      "energy_cost_stand_by": "44.8"
+    },
+    {
+      "name": "Host4",
+      "cores": "8",
+      "cpu_speed": "3.8Gf",
+      "disk_speed": "540MBps",
+      "network_speed": "1Gbps",
+      "energy_cost": "55.4",
+      "energy_cost_stand_by": "44.8"
+    },
+    {
+      "name": "Host5",
+      "cores": "8",
+      "cpu_speed": "3.8Gf",
+      "disk_speed": "540MBps",
+      "network_speed": "1Gbps",
+      "energy_cost": "55.4",
+      "energy_cost_stand_by": "44.8"
+    },
+    {
+      "name": "Host6",
+      "cores": "8",
+      "cpu_speed": "3.8Gf",
+      "disk_speed": "540MBps",
+      "network_speed": "1Gbps",
+      "energy_cost": "55.4",
+      "energy_cost_stand_by": "44.8"
+    },
+    {
+      "name": "Host7",
+      "cores": "8",
+      "cpu_speed": "3.8Gf",
+      "disk_speed": "540MBps",
+      "network_speed": "1Gbps",
+      "energy_cost": "55.4",
+      "energy_cost_stand_by": "44.8"
+    },
+    {
+      "name": "Host8",
+      "cores": "8",
+      "cpu_speed": "3.8Gf",
+      "disk_speed": "540MBps",
+      "network_speed": "1Gbps",
+      "energy_cost": "55.4",
+      "energy_cost_stand_by": "44.8"
+    },
+    {
+      "name": "Host9",
+      "cores": "64",
+      "cpu_speed": "1.9Gf",
+      "disk_speed": "540MBps",
+      "network_speed": "1Gbps",
+      "energy_cost": "439",
+      "energy_cost_stand_by": "147"
+    },
+    {
+      "name": "Host10",
+      "cores": "64",
+      "cpu_speed": "1.9Gf",
+      "disk_speed": "540MBps",
+      "network_speed": "1Gbps",
+      "energy_cost": "439",
+      "energy_cost_stand_by": "147"
+    },
+    {
+      "name": "Host11",
+      "cores": "64",
+      "cpu_speed": "1.9Gf",
+      "disk_speed": "540MBps",
+      "network_speed": "1Gbps",
+      "energy_cost": "439",
+      "energy_cost_stand_by": "147"
+    },
+    {
+      "name": "Host12",
+      "cores": "64",
+      "cpu_speed": "1.9Gf",
+      "disk_speed": "540MBps",
+      "network_speed": "1Gbps",
+      "energy_cost": "439",
+      "energy_cost_stand_by": "147"
+    },
+    {
+      "name": "Host13",
+      "cores": "64",
+      "cpu_speed": "1.9Gf",
+      "disk_speed": "540MBps",
+      "network_speed": "1Gbps",
+      "energy_cost": "439",
+      "energy_cost_stand_by": "147"
+    },
+    {
+      "name": "Host14",
+      "cores": "64",
+      "cpu_speed": "1.9Gf",
+      "disk_speed": "540MBps",
+      "network_speed": "1Gbps",
+      "energy_cost": "439",
+      "energy_cost_stand_by": "147"
+    },
+    {
+      "name": "Host15",
+      "cores": "64",
+      "cpu_speed": "1.9Gf",
+      "disk_speed": "540MBps",
+      "network_speed": "1Gbps",
+      "energy_cost": "439",
+      "energy_cost_stand_by": "147"
+    },
+    {
+      "name": "Host16",
+      "cores": "64",
+      "cpu_speed": "1.9Gf",
+      "disk_speed": "540MBps",
+      "network_speed": "1Gbps",
+      "energy_cost": "439",
+      "energy_cost_stand_by": "147"
+    }
+  ]
+}

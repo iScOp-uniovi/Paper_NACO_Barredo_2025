@@ -1,0 +1,22 @@
+{
+  "hosts": [
+    {
+      "name": "Host1",
+      "cores": "8",
+      "cpu_speed": "3.8Gf",
+      "disk_speed": "540MBps",
+      "network_speed": "1Gbps",
+      "energy_cost": "55.4",
+      "energy_cost_stand_by": "44.8"
+    },
+    {
+      "name": "Host2",
+      "cores": "64",
+      "cpu_speed": "1.9Gf",
+      "disk_speed": "540MBps",
+      "network_speed": "1Gbps",
+      "energy_cost": "439",
+      "energy_cost_stand_by": "147"
+    }
+  ]
+}
