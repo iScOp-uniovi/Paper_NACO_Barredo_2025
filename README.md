@@ -3,7 +3,7 @@ This repository contains supplementary material for the paper:
 
 > **"Energy-aware Cooperative Multi-Fitness Evolutionary Algorithm for Workflow Scheduling in Cloud Computing"**
 >  
-> (Submitted to **Natural Computing (NACO)**.
+> (Submitted to **Natural Computing (NACO)**)
 > Authors: Pablo Barredo, Jorge Puente
 >
 >DOI: [Pending Assignment]
