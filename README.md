@@ -8,7 +8,7 @@ This repository contains supplementary material for the paper:
 >
 >DOI: [Pending Assignment]
 >
-> URI: [Pending Assignment]
+> URI: [Full-text access](https://rdcu.be/eqCmv)
 
 The growing energy consumption of cloud infrastructure has attained levels that
 are no longer viable, necessitating the development of energy-aware scheduling
