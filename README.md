@@ -3,12 +3,13 @@ This repository contains supplementary material for the paper:
 
 > **"Energy-aware Cooperative Multi-Fitness Evolutionary Algorithm for Workflow Scheduling in Cloud Computing"**
 >  
-> (Submitted to **Natural Computing (NACO)**)
-> Authors: Pablo Barredo, Jorge Puente
+> Published in **Natural Computing (NACO)**
 >
->DOI: [Pending Assignment]
+>  Authors: Pablo Barredo, Jorge Puente
 >
-> URI: [Full-text access](https://rdcu.be/eqCmv)
+>DOI: [10.1007/s11047-025-10023-y](https://doi.org/10.1007/s11047-025-10023-y)
+>
+> URI: [https://hdl.handle.net/10651/80827](https://hdl.handle.net/10651/80827)
 
 The growing energy consumption of cloud infrastructure has attained levels that
 are no longer viable, necessitating the development of energy-aware scheduling
@@ -60,11 +61,14 @@ If you use this material in your research, please cite our paper as follows:
 
 ```
 @article{Barredo2025NACO,
-  author    = {Pablo Barredo and Jorge Puente},
-  title     = {Energy-aware Cooperative Multi-Fitness Evolutionary Algorithm for Workflow Scheduling in Cloud Computing},
-  journal   = {Submitted to Natural Computing (NACO)},
-  year      = {now under revision},
-  doi       = {Pending Assignment}
+  author  = {Barredo, Pablo and Puente, Jorge},
+  title   = {Energy-aware cooperative multi-fitness evolutionary algorithm for workflow scheduling in cloud computing},
+  journal = {Natural Computing},
+  year    = {2025},
+  volume  = {24},
+  number  = {3},
+  pages   = {557-570},
+  doi     = {10.1007/s11047-025-10023-y}
 }
 ```
 
