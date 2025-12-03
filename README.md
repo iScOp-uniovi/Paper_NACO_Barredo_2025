@@ -82,9 +82,6 @@ This repository is distributed under a dual-license scheme:
 
 - All **source code** contained in the `code/` directory is licensed under the  
   **MIT License**.
-
-This ensures free reuse of both the scientific material and the software, while preserving proper academic attribution.
-
 ---
 
 ---
